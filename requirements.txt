@@ -1,0 +1,15 @@
+# Core Python dependencies
+python>=3.10
+
+# NLP / text processing
+nltk
+spacy
+
+# Optional for advanced AI/NLP (later use)
+openai
+
+# Utilities
+pandas
+
+# Web frontend if using Flask for demo
+flask

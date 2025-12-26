@@ -1,5 +1,5 @@
 # Core Python dependencies
-python>=3.10
+# python>=3.10
 
 # NLP / text processing
 nltk

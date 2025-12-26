@@ -4,7 +4,8 @@ from analyzer.narrative_analyzer import analyze_commits
 from generator.story_generator import generate_story
 
 def main():
-    file_path = "examples/sample_git_log.txt"  # Example input file
+    # file_path = "examples/sample_git_log.txt"  # Example input file
+    file_path = "examples/my_commits.txt"  # Example input file
     commit_lines = load_commits_from_file(file_path)
     commits = parse_commits(commit_lines)
     phases = analyze_commits(commits)

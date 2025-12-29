@@ -13,3 +13,5 @@ pandas
 
 # Web frontend if using Flask for demo
 flask
+
+chardet
